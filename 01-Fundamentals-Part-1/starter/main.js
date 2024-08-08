@@ -12,8 +12,14 @@ let johnBMI = johnMass / johnHeight ** 2;
 console.log(markBMI);
 console.log(johnBMI);
 
-let markHigherBMI = (markBMI > johnBMI);
+markHigherBMI = markBMI > johnBMI;
 console.log(markHigherBMI);
+
+if (markBMI > johnBMI) {
+  console.log(`markBMI is higher than johnBMI`);
+} else {
+  console.log(`johnBMI is higher than markBMI`);
+}
 
 // Second data
 
@@ -29,5 +35,11 @@ johnBMI = johnMass / johnHeight ** 2;
 console.log(markBMI);
 console.log(johnBMI);
 
-markHigherBMI = (markBMI > johnBMI);
+markHigherBMI = markBMI > johnBMI;
 console.log(markHigherBMI);
+
+if (markBMI > johnBMI) {
+  console.log(`markBMI is higher than johnBMI`);
+} else {
+  console.log(`johnBMI is higher than markBMI`);
+}
