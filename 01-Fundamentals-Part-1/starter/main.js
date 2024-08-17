@@ -87,3 +87,6 @@ if (dolphinsAverageScore2 > koalasAverageScore2 && dolphinsAverageScore2 >= 100)
 }else{
   console.log(`No winner`);
 }
+
+
+// Coding Challenge 4

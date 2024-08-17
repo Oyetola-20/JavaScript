@@ -233,8 +233,8 @@
 // console.log(5 != "5");
 // console.log(5 !== "5");
 
-//!= loose not eauality
-//!== strict not eauality
+//!= loose not equality
+//!== strict not equality
 
 // CODING CHALLENGE -1
 // Ciroma and Dumebi are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / height ** 2 = mass / (height * height). (mass in kg and height in meter).
