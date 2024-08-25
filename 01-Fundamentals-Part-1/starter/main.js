@@ -1,3 +1,4 @@
+// Javascript Fundamental - Part 1
 // Coding Challenge #1 and #2
 
 let markMass = 78;
@@ -88,5 +89,79 @@ if (dolphinsAverageScore2 > koalasAverageScore2 && dolphinsAverageScore2 >= 100)
   console.log(`No winner`);
 }
 
+//*Coding Challenge 4
 
-// Coding Challenge 4
+// let billValue = 275;
+// if (billValue >= 50 && billValue <= 300) {
+//   tip = billValue * 0.15;
+//   console.log(tip);
+// }else {
+//   tip = billValue * 0.2;
+//   console.log(tip);
+// }
+
+let billValue = 275;
+let tip = (billValue >= 50 && billValue <= 300) ? billValue * 0.15 : billValue * 0.2;
+console.log(tip);
+console.log(`The bill was ${billValue}, the tip was ${tip} , and the total value is ${billValue + tip}.`);
+
+// billValue = 40;
+// if (billValue >= 50 && billValue <= 300) {
+//   tip = billValue * 0.15;
+//   console.log(tip);
+// }else {
+//   tip = billValue * 0.2;
+//   console.log(tip);
+// }
+
+let billValue2 = 40;
+tip = (billValue2 >= 50 && billValue2 <= 300) ? billValue2 * 0.15 : billValue2 * 0.2;
+console.log(tip);
+console.log(`The bill was ${billValue2}, the tip was ${tip} , and the total value is ${billValue2 + tip}.`);
+
+// billValue = 430;
+// if (billValue >= 50 && billValue <= 300) {
+//   tip = billValue * 0.15;
+//   console.log(tip);
+// }else {
+//   tip = billValue * 0.2;
+//   console.log(tip);
+// }
+
+let billValue3 = 430;
+tip = (billValue3 >= 50 && billValue3 <= 300) ? billValue3 * 0.15 : billValue3 * 0.2;
+console.log(tip);
+console.log(`The bill was ${billValue3}, the tip was ${tip} , and the total value is ${billValue3 + tip}.`);
+
+// Javascript Fundamental - Part 2
+// Coding challenge #1
+// Data 1
+let calcAverage = (score1, score2, score3) => (score1 + score2 + score3) / 3;
+let dolphinsAverage = calcAverage(44, 23, 71);
+let koalasAverage = calcAverage(65, 54, 49);
+
+function checkWinner(avgDolphins, avgKoalas) {
+  if (avgDolphins >= avgKoalas * 2) {
+    console.log(`Dolphins win (${avgDolphins} vs ${avgKoalas})`);
+  } else if (avgKoalas >= avgDolphins * 2) {
+    console.log(`Koalas win (${avgKoalas} vs ${avgDolphins})`);
+  } else {
+    console.log(`No team wins`)
+  }
+}
+checkWinner(dolphinsAverage, koalasAverage);
+
+// Data 2
+dolphinsAverage = calcAverage(85, 54, 41);
+koalasAverage = calcAverage(23, 34, 27);
+
+function checkWinner2(avgDolphins, avgKoalas) {
+  if (avgDolphins >= avgKoalas * 2) {
+    console.log(`Dolphins win (${avgDolphins} vs ${avgKoalas})`);
+  } else if (avgKoalas >= avgDolphins * 2) {
+    console.log(`Koalas win (${avgKoalas} vs ${avgDolphins})`);
+  } else {
+    console.log(`No team wins`)
+  }
+}
+checkWinner2(dolphinsAverage, koalasAverage);
