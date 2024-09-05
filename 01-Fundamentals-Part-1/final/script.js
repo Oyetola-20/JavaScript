@@ -287,14 +287,14 @@
 // console.log(!true || false || true);//true
 
 //CONDITIONAL TERNARY OPERATOR
-/*
-if (age > 18) {
-  console.log("you can drink wine");
-} else {
-  console.log("you can drink water");
-}
-*/
+
 // const age = 2;
+// if (age > 18) {
+//   console.log("you can drink wine");
+// } else {
+//   console.log("you can drink water");
+// }
+
 // const isAdult = age > 18 ? "yaay" : "naayy";
 // console.log(isAdult);
 

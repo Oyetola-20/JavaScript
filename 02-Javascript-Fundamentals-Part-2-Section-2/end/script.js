@@ -100,14 +100,14 @@
 // friends[1*3] = "Ruth";
 // console.log(friends);
 
-//BASIC ARRAY OPERATIONS
+// // BASIC ARRAY OPERATIONS
 // const friends = ["Ciroma", "Dumebi", "Kate", "Adekunle", "Philips"];
-//ADDING ELEMENTS TO AN ARRAY
+// // ADDING ELEMENTS TO AN ARRAY
 // friends.push("Olumide", "Tayo")
 // console.log(friends);
 // friends.unshift("Bridget", "Queen");
 // console.log(friends);
-//REMOVING ELEMENTS FROM AN ARRAY
+// REMOVING ELEMENTS FROM AN ARRAY
 // console.log(friends);
 // friends.pop();
 // console.log(friends);
@@ -115,7 +115,7 @@
 // console.log(friends);
 
 // console.log(friends);
-// friends.splice(1,2)
+// friends.splice(1, 2)
 // console.log(friends);
 
 //  console.log(friends.includes("George"));
