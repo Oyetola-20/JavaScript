@@ -319,17 +319,17 @@
 //   console.log(friends[i])
 // }
 
-const array1 = [1,2,3,4]
-const array2 = [45,56,-12,-50]
+// const array1 = [1,2,3,4]
+// const array2 = [45,56,-12,-50]
 //create a for loop
 //add consecutive numbers together
 //create a variable called sum, and add consecutive numbers together
-const addArrayNumber = function(arr){
-    let sum = 0
-    for(let i = 0; i < arr.length; i++){
-    sum = sum + arr[i]
-    }
-    console.log(sum)
-}
-addArrayNumber(array1)
-addArrayNumber(array2)
+// const addArrayNumber = function(arr){
+//     let sum = 0
+//     for(let i = 0; i < arr.length; i++){
+//     sum = sum + arr[i]
+//     }
+//     console.log(sum)
+// }
+// addArrayNumber(array1)
+// addArrayNumber(array2)

@@ -88,12 +88,15 @@ for (let i = 0; i < bills.length; i++) {
   tips.push(calcTip(bills[i]));
   total.push(tips[i] + bills[i]);
 }
-console.log(tips);
-console.log(total);
+console.log(tips, total);
 
-let arr = [];
-let sum = 0;
-for (let i = 0; i < bills.length; i++) {
-  sum += bills[i];
-}
-console.log(sum);
+// Bonus
+const averageCalc = function (arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  return sum / arr.length
+};
+console.log(averageCalc(total));
+
