@@ -71,5 +71,4 @@ holdButton.addEventListener('click', function () {
     }
   }
 });
-resetGameButton.addEventListener('click',init);
-
+resetGameButton.addEventListener('click', init);
