@@ -15,6 +15,7 @@ score0Element.textContent = 0;
 score1Element.textContent = 0;
 diceElement.style.display = 'none';
 let playing = true;
+let gif = document.querySelector('.tenor-gif-embed');
 
 function changePlayer() {
   document.getElementById(`current--${activePlayer}`).textContent = 0;
@@ -57,6 +58,14 @@ holdButton.addEventListener('click', () => {
         .querySelector(`.player--${activePlayer}`)
         .classList.add('player--winner');
       playing = false;
+      if (activePlayer === 0){
+        gif.classList.remove('hidden');
+        gif.style.left = '0';
+      } else{
+        gif.classList.remove('hidden');
+        gif.style.right = '0'
+      }
+      
     } else {
       changePlayer();
     }
@@ -77,5 +86,6 @@ let reset = function () {
   playerPanel1.classList.add('player--active');
   playerPanel2.classList.remove('player--active');
   playing = true;
+  gif.classList.add('hidden');
 };
 resetGameButton.addEventListener('click', reset);

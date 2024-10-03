@@ -6,6 +6,8 @@
   box-sizing: inherit;
 }
 
+
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -164,4 +166,12 @@ main {
 .player--winner .name {
   font-weight: 700;
   color: #c7365f;
+}
+
+.tenor-gif-embed{
+  position: absolute;
+}
+
+.hidden{
+  display: none; 
 }
